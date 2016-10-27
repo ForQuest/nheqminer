@@ -2,7 +2,7 @@
 
 ## Windows:
 
-Windows builds made by us are available here: https://github.com/nicehash/nheqminer/releases
+Windows builds made by us are available here: https://github.com/ocminer/nheqminer/releases
 
 Download and install:
 - Visual Studio 2013 Community: https://www.visualstudio.com/en-us/news/releasenotes/vs2013-community-vs
@@ -14,7 +14,7 @@ Open **nheqminer.sln** under **nheqminer/nheqminer.sln** and build.
 You should have **CMake** installed (2.8 minimal version), boost (install from the repositories or download boost manually build and install it manually), download the sources manually or via git. 
 Under Ubuntu open a terminal and run the following commands:
   - `sudo apt-get install cmake build-essential libboost-all-dev`
-  - `git clone https://github.com/nicehash/nheqminer.git`
+  - `git clone https://github.com/ocminer/nheqminer.git`
   - `cd nheqminer/nheqminer`
   - `mkdir build`
   - `cd build`
@@ -25,7 +25,7 @@ Under Ubuntu open a terminal and run the following commands:
 ## Linux (Ubuntu/Debian based, Tested on Ubuntu 16.04):
 To build under Ubuntu Linux make sure you have Qt5 installed. You can install it manually from [Qt website](https://www.qt.io/) or install it from the command line: `sudo apt-get install qt5-default`.
 Open a terminal and cd to nheqminer root folder and run the following commands (make sure you have qmake in your PATH, if installed manually from Qt website you will have to export it to your PATH):
-  - `git clone https://github.com/nicehash/nheqminer.git`
+  - `git clone https://github.com/ocminer/nheqminer.git`
   - `cd nheqminer`
   - `mkdir build`
   - `cd build`
